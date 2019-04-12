@@ -1,0 +1,22 @@
+{
+  "name": "tours-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novamatic/tours-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novamatic/tours-page/issues"
+  },
+  "homepage": "https://github.com/novamatic/tours-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
