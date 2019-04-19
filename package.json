@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sassonce": "node-sass sass/main.scss css/style.css",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run compile:sass"
+    "heroku-postbuild": "yarn run compile:sassonce"
   },
   "repository": {
     "type": "git",
